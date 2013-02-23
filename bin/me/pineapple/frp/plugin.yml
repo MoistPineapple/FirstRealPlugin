@@ -1,0 +1,8 @@
+name: FirstRealPlugin
+main: me.pineapple.frp.FirstRealPlugin
+version: 0.1
+
+commands:
+     frp:
+     description: Controls FirstRealPlugin
+     usage: /frp
