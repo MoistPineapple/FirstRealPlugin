@@ -27,5 +27,8 @@ public class CmdFrp implements CommandExecutor {
 				}
 			}
 				
-		return false;
 		}
+		return true;
+	}
+
+}
