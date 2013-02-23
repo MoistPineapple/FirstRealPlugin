@@ -16,8 +16,7 @@ public class CmdFrp implements CommandExecutor {
 			if(player.hasPermission("frp.admin") || player.hasPermission("frp.*") || player.isOp()){
 				if(args[0].equalsIgnoreCase("test")){
 					player.sendMessage(ChatColor.DARK_RED + "[[" + ChatColor.GREEN + "FRP" + ChatColor.DARK_RED + "]]" + ChatColor.GOLD + "So far, this seems to be working. Good going.");
-				}else if{
-					if(args[0].equalsIgnoreCase("help")){
+				}else if(args[0].equalsIgnoreCase("help")){
 						player.sendMessage(ChatColor.DARK_GREEN + "=========" + ChatColor.GOLD + "FRP Commands" + ChatColor.DARK_GREEN + "=========");
 						player.sendMessage(ChatColor.GREEN + "/frp test        " + ChatColor.AQUA + "Shows if your plugin works.");
 						player.sendMessage(ChatColor.GREEN + "/frp help" + ChatColor.AQUA + "Shows you this exact menu.");
