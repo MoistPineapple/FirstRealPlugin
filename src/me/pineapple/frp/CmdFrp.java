@@ -20,7 +20,7 @@ public class CmdFrp implements CommandExecutor {
 						player.sendMessage(ChatColor.DARK_GREEN + "=========" + ChatColor.GOLD + "FRP Commands" + ChatColor.DARK_GREEN + "=========");
 						player.sendMessage(ChatColor.GREEN + "/frp test        " + ChatColor.AQUA + "Shows if your plugin works.");
 						player.sendMessage(ChatColor.GREEN + "/frp help" + ChatColor.AQUA + "Shows you this exact menu.");
-					
+						player.sendMessage(ChatColor.DARK_GREEN + "==============================");
 					
 				}else{
 					player.sendMessage(ChatColor.DARK_RED + "[[" + ChatColor.GREEN + "FRP" + ChatColor.DARK_RED + "]]" + ChatColor.GOLD + "Seems like you messed up. Check /frp help for commands..");
