@@ -15,6 +15,6 @@ public class FirstRealPlugin extends JavaPlugin {
 	}
 
 	public void onDisable() {
-		System.out.println("[[FRP by Pastor Pineapple is now disabled!");
+		System.out.println("[[FRP]] by Pastor Pineapple is now disabled!");
 	}
 }
