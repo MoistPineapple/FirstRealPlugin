@@ -15,8 +15,8 @@ public class CmdFrp implements CommandExecutor {
 			Player player = (Player) sender;
 			if(player.hasPermission("frp.admin") || player.hasPermission("frp.*") || player.isOp()){
 				if(args[0].equalsIgnoreCase("test")){
-					player.sendMessage(ChatColor.);
-				}
+					player.sendMessage(ChatColor.DARK_RED + "[[" + ChatColor.GREEN + "FRP" + ChatColor.DARK_RED + "]]" + ChatColor.GOLD + "So far, this seems to be working. Good going.");
+				}else if
 			}
 				}
 		return false;
